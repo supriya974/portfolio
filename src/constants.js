@@ -55,6 +55,9 @@ import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import portfoliomy from './assets/work_logo/portfolio.png';
+import ecomLogo from './assets/work_logo/e_commerce.png';
+import old from './assets/work_logo/old.jpg';
 
 
 export const SkillsInfo = [
@@ -214,7 +217,7 @@ export const SkillsInfo = [
       id: 0,
       title: "portfolio",
       description:"A personal portfolio website showcasing my skills, projects, and experiences. Built with React.js, it features a responsive design, smooth animations, and a user-friendly interface to highlight my work effectively.",
-      //image: githubdetLogo,
+      image: portfoliomy,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS"],
       github: "https://github.com/supriya974/portfolio",
       webapp: "https://supriyadas.vercel.app/",
@@ -223,7 +226,7 @@ export const SkillsInfo = [
       id: 1,
       title: "Object height detector",
       description:"An innovative Java application that utilizes OpenCV to detect the height of objects in images. This project demonstrates the power of computer vision in real-world applications, providing accurate measurements and insights.",
-      //image: csprepLogo,
+      image: old,
       tags: ["Java", "OpenCV", "Computer Vision", "Image Processing"],
       github: "https://github.com/supriya974/object-height-detector",
       //webapp: "https://csprep.netlify.app/",
@@ -232,9 +235,10 @@ export const SkillsInfo = [
       id: 3,
       title: "E-commerce shopping website",
       description:"A comprehensive e-commerce shopping website built with React.js, Node.js, and MongoDB. It features a user-friendly interface, secure payment integration, and a robust backend to manage products, orders, and user accounts effectively.",
-      tags: ["React JS", "HTML", "CSS", "JavaScript"],
-     // github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      //webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      image: ecomLogo,
+      tags: ["React JS", "Bootstrap", "SCSS", "JavaScript"],
+      github: "https://github.com/supriya974/E-commerce-website",
+      webapp: "https://dasshopcart.vercel.app/",
     },
     // {
     //   id: 3,
